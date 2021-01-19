@@ -7,6 +7,8 @@ body{background-image: url(../imagenes/pattern\ tablecoat.jpg);   /* body{bgc} *
     background-color: white;
     width: 90%;
     margin: auto;
-    box-sizing: border-box;  /*Cualquier padding se toma dentro del tamaño especificado. No se añade al ancho/*
+    box-sizing: border-box;  /*Cualquier padding se toma dentro del tamaño especificado. No se añade al ancho*/
     padding: 40px;
     border-radius: 20px;}
+
+    h1{text-align: center;s}
