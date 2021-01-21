@@ -9,6 +9,32 @@ body{background-image: url(../imagenes/pattern\ tablecoat.jpg);   /* body{bgc} *
     margin: auto;
     box-sizing: border-box;  /*Cualquier padding se toma dentro del tamaño especificado. No se añade al ancho*/
     padding: 40px;
-    border-radius: 20px;}
+    border-radius: 20px;
+    box-shadow: 100px;}
 
-    h1{text-align: center;s}
+    h1{text-align: center;
+    text-decoration: underline;}
+
+h2{text-decoration: underline;}
+dt{text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2vw; /*Para el tama;o relativo de fuente usar vw*/
+color: tomato;}
+#tortilla{
+    width: 40%;
+    float: right;                     /*El float es para poner imagenes dejando texto al lado*/
+    margin-right: 10%;
+}
+
+/************Media Query ***********************/
+@media only screen and (max-width: 800px){
+    #tortilla{
+        width: 80%;
+    }
+    dt{text-align: center;}
+    #container{width: 100%;}
+}
+
+@media only screen and (max-width:1000px ){
+    dt{font-size:1.5em ;}
+}
